@@ -8,13 +8,15 @@ import { MenuComponent } from './components/menu/menu.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { AcercadeComponent } from './components/acercade/acercade.component';
 import { HttpClientModule} from '@angular/common/http';
+import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     MenuComponent,
     BannerComponent,
-    AcercadeComponent
+    AcercadeComponent,
+    ExperienciaComponent
   ],
   imports: [
     BrowserModule,
