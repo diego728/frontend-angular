@@ -10,11 +10,21 @@
     "educacion": [
         {
             "nombre": "Univerisas Tecnologica Nacional",
-            "foto": "urlfoto"
+            "fechaInicio": 2017,
+            "fechaFin":2023,
+            "pais":"Argentina",
+            "localidad":"Cordoba",
+            "imagen": "../../../assets/imagenes/utn.png",
+            "info":"capaz no pongo nada aca"
         },
         {
             "nombre": "Instituto2",
-            "foto": "urlFOto2"
+            "fechaInicio": 2019,
+            "fechaFin":2020,
+            "pais":"Argentina",
+            "localidad":"Cordoba",
+            "imagen": "../../../assets/imagenes/abstr.jpg",
+            "info":"algo de info nose"
         }
     ],
     "trabajos": [

@@ -1,0 +1,30 @@
+<div class="titulo">
+    <h1>Educación</h1>
+    <button type="button" class="btn btn-light">+Educación</button>
+</div>
+<ul>
+    <li *ngFor="let educacion of educacionList">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-3">
+                <img [src]="educacion.imagen" alt="">
+            </div>
+            <div class="col-7">
+                <div>
+                    <h5>{{educacion.nombre}} <h6 class="text-muted">{{educacion.fechaInicio}} -
+                            {{educacion.fechaFin}}</h6>
+                    </h5>
+                    <h6>{{educacion.localidad}} - {{educacion.pais}}</h6>
+                    <p>{{educacion.info}}</p>
+                </div>
+            </div>
+            <div class="col-1">
+                <div class="btn-edit">
+                    <a href="" class="btn-right"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+
+                </div>
+
+            </div>
+        </div>
+    </li>
+</ul>
